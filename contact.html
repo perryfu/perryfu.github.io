@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact and policies — Pengyu (Perry) Fu</title>
+<meta name="description" content="Pengyu (Perry) Fu — research scientist at Ohio State in high-voltage power electronics, insulation, SiC/GaN devices, aerospace and lunar power, and AI for power.">
+<meta name="author" content="Pengyu (Perry) Fu">
+<link rel="canonical" href="https://perryfu.github.io/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact and policies — Pengyu (Perry) Fu">
+<meta property="og:description" content="Pengyu (Perry) Fu — research scientist at Ohio State in high-voltage power electronics, insulation, SiC/GaN devices, aerospace and lunar power, and AI for power.">
+<meta property="og:url" content="https://perryfu.github.io/contact.html">
+<meta property="og:image" content="https://perryfu.github.io/files/headshot.jpeg"><meta name="twitter:card" content="summary">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script data-goatcounter="https://perryfu.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</head>
+<body>
+<nav class="crumb"><a href="index.html">← Pengyu (Perry) Fu</a></nav>
+<main>
+<h1>Contact and policies</h1>
+
+<dl class="contact">
+  <dt>Email</dt>
+  <dd><span class="email" data-u="fu.901" data-d="osu.edu">fu.901 [at] osu.edu</span></dd>
+</dl>
+
+<h2>Correspondence policies</h2>
+<h3 id="talks-tutorials-and-panels">Talks, tutorials and panels</h3>
+<p>I am happy to consider invitations on high voltage for electrified aircraft and aerospace systems, wide-bandgap power electronics, and power for AI data centers. Please write at least three months in advance with the date, audience and format.</p>
+<h3 id="industry-collaboration">Industry collaboration</h3>
+<p>Companies interested in sponsored research, testing or membership are welcome to contact me; the <a href="https://chppe.engineering.osu.edu/">Center for High Performance Power Electronics</a> is the usual route for industry partnerships.</p>
+<h3 id="full-cv">Full CV</h3>
+<p>A short CV is on the <a href="bio.html">Biography and CV</a> page. For the full CV, email me and I will send the current version.</p>
+<script>
+/* Assemble a mailto link at runtime so the address is not sitting in the HTML for scrapers. */
+document.querySelectorAll('.email').forEach(function (el) {
+  var u = el.dataset.u, d = el.dataset.d;
+  if (!u || !d || /\[\[/.test(u + d)) return;
+  var a = document.createElement('a'); a.href = 'mailto:' + u + '@' + d; a.textContent = u + '@' + d;
+  el.replaceWith(a);
+});
+</script>
+</main>
+<footer>
+  <p>Generated from data maintained (with AI assistance) by Pengyu (Perry) Fu at <a href="https://github.com/perryfu/perryfu.github.io">github.com/perryfu/perryfu.github.io</a>. Last built 2026-10-24.</p>
+</footer>
+</body>
+</html>
